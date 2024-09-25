@@ -1,2 +1,2 @@
 #!/bin/sh
-logkeys --start
+logkeys --kill -u --no-func-keys -o=$HOME/.logkeys/logkeys.log --no-daemon
